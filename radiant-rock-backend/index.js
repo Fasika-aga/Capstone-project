@@ -8,6 +8,10 @@ const PORT = process.env.PORT || 4000;
 app.use(morgan('dev'));
 app.use(express.json());
 
+
+app.use("/gemstone", gemstoneRouter);
+
+
 app.get('/', (req,res) => {
     res.send('welcome to the API');
 })

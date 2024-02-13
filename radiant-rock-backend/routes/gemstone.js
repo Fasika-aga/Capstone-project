@@ -1,10 +1,12 @@
-import { Router } from " express";
-import db from "../db/c"
-
-// routes/gemstones.js
-
 const express = require('express');
 const router = express.Router();
+const Gemstone = require('../models/Gemstone');
+
+
+routes/gemstones.js
+
+const express = require('express');
+const gemstoneRouter = express.Router();
 const Gemstone = require('../models/Gemstone');
 
 // Create a new gemstone
@@ -68,3 +70,4 @@ router.delete('/:id', async (req, res) => {
 });
 
 module.exports = router;
+
