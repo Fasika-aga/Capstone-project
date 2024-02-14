@@ -1,23 +1,15 @@
-import React from 'react';
-import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Navbar from './Navbar';
-import GemstoneList from './components/GemstoneList';
-import GemstoneDetail from './components/GemstoneDetail';
-import Signup from './Signup';
-
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import AllGems from "./components/AllGems";
 function App() {
   return (
-    <Router>
-      <div>
-        <Navbar />
-        <Switch>
-          <Route path="/" exact component={GemstoneList} />
-          <Route path="/gemstones/:id" component={GemstoneDetail} />
-          <Route path="/signup" component={Signup} />
-        </Switch>
-      </div>
-    </Router>
+    <div className="App">
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<AllGems />} />
+      </Routes>
+    </div>
   );
 }
 

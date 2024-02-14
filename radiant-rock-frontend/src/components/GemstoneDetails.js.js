@@ -27,8 +27,6 @@ const GemstoneDetail = ({ match }) => {
   return (
     <div>
       <h2>{gemstone.name}</h2>
-      <p>Color: {gemstone.color}</p>
-      <p>Mohs Scale Hardness: {gemstone.mohsScaleHardness}</p>
       <p>Origin: {gemstone.origin}</p>
       <p>Price per Carat: ${gemstone.pricePerCarat}</p>
     </div>

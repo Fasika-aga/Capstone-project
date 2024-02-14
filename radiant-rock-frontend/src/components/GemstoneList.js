@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const GemstoneList = () => {
+const GemstoneList = () => {git config core.autocrlf true
   const [gemstones, setGemstones] = useState([]);
 
   useEffect(() => {
