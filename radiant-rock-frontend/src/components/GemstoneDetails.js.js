@@ -4,31 +4,36 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 const GemstoneDetail = ({ match }) => {
-  const [gemstone, setGemstone] = useState(null);
-  const gemstoneId = match.params.id;
+  // const [gemstone, setGemstone] = useState(null);
+  // const gemstoneId = match.params.id;
 
-  useEffect(() => {
-    const fetchGemstone = async () => {
-      try {
-        const response = await axios.get(`/api/gemstones/${gemstoneId}`);
-        setGemstone(response.data);
-      } catch (error) {
-        console.error('Error fetching gemstone:', error);
-      }
-    };
+  // useEffect(() => {
+  //   const fetchGemstone = async () => {
+  //     try {
+  //       const response = await axios.get(`/api/gemstones/${gemstoneId}`);
+  //       setGemstone(response.data);
+  //     } catch (error) {
+  //       console.error('Error fetching gemstone:', error);
+  //     }
+  //   };
 
-    fetchGemstone();
-  }, [gemstoneId]);
+  //   fetchGemstone();
+  // }, [gemstoneId]);
 
-  if (!gemstone) {
-    return <div>Loading...</div>;
-  }
+  // if (!gemstone) {
+  //   return <div>Loading...</div>;
+  // }
 
   return (
     <div>
-      <h2>{gemstone.name}</h2>
+      {/* <h2>{gemstone.name}</h2>
       <p>Origin: {gemstone.origin}</p>
-      <p>Price per Carat: ${gemstone.pricePerCarat}</p>
+      <p>Price per Carat: ${gemstone.pricePerCarat}</p> */}
+      <h2>wdw</h2>
+      <p>Origin: edweed</p>
+      <p>Price per Carat: wwf</p>
+
+      
     </div>
   );
 };

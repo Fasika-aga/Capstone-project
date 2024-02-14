@@ -1,16 +1,16 @@
-import { Route, Routes } from "react-router-dom";
-import "./App.css";
-import Navbar from "./components/Navbar";
-import AllGems from "./components/AllGems";
-function App() {
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Homepage from "./components/Homepage";
+
+const App = () => {
   return (
-    <div className="App">
-      <Navbar />
+    <BrowserRouter>
       <Routes>
-        <Route path="/" element={<AllGems />} />
+        <Route path="/" element={<Homepage />} />
+        <Route path="about" element={<h1>About</h1>} />
       </Routes>
-    </div>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
