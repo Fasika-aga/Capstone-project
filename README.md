@@ -1,27 +1,18 @@
-APP name : Radiant Rock
- 
- Backend
- Technologies Used:
+Radiant Rock - Backend
+Overview
+Radiant Rock is a backend application built with Node.js and Express.js, designed to handle user authentication and product management for an online gemstone store. It provides endpoints for user signup, user login, and product management, including the ability to add new products with images and retrieve existing products from the database.
 
-Backend: Node.js, Express.js, MongoDB
+Technologies Used
+Backend Framework: Node.js, Express.js
+Database: MongoDB
 Authentication: JSON Web Tokens (JWT)
 Image Upload: Multer
 
-Folder Structure
 models: Contains the user model schema definition.
-controllers: Contains controller functions for handling user signup and signin.
+controllers: Contains controller functions for handling user signup, signin, and product management.
 middlewares: Middleware functions for error handling and authentication.
 routes: Defines API routes and their corresponding controller functions.
-
-Dependencies
-   
-      cors
-    dotenv
-    express
-    express-session
-    mongoose
-    morgan
-    multer
+ 
 
 # Front End 
 
