@@ -25,8 +25,7 @@ routes: Defines API routes and their corresponding controller functions.
     - `Homepage.js`: Component for the homepage.
     - `Product.js`: Component for displaying products or gemstones.
     - `Login.js`: Component for user login functionality.
-  - `/utils`: Contains utility functions or helper methods.
-  - `/assets`: Contains static assets such as images, stylesheets, etc.
+
 
 ## Technologies Used
 - React: JavaScript library for building user interfaces.
