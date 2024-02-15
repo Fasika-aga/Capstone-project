@@ -1,6 +1,3 @@
-Radiant Rock - Backend
-Overview
-Radiant Rock is a backend application built with Node.js and Express.js, designed to handle user authentication and product management for an online gemstone store. It provides endpoints for user signup, user login, and product management, including the ability to add new products with images and retrieve existing products from the database.
 
 Technologies Used
 Backend Framework: Node.js, Express.js
