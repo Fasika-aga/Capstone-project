@@ -2,7 +2,6 @@
 Technologies Used
 Backend Framework: Node.js, Express.js
 Database: MongoDB
-Authentication: JSON Web Tokens (JWT)
 Image Upload: Multer
 
 models: Contains the user model schema definition.
