@@ -4,6 +4,10 @@ Backend Framework: Node.js, Express.js
 Database: MongoDB
 Image Upload: Multer
 
+models: Contains the user model schema definition.
+controllers: Contains controller functions for handling user signup, signin, and product management.
+middlewares: Middleware functions for error handling and authentication.
+routes: Defines API routes and their corresponding controller functions.
 
  
 
