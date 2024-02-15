@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios"; // Import Axios for making HTTP requests
+import Navbar from "./Navbar"
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -26,6 +27,7 @@ const Login = () => {
 
   return (
     <div>
+   <Navbar/>
       <h2>Login</h2>
       <form onSubmit={handleSubmit}>
         <div>

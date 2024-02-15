@@ -12,7 +12,7 @@ const Homepage = () => {
       <GemstoneList />
       <Login />
       <Signup />
-      <GemstoneDetail />
+      // <GemstoneDetail />
     </div>
   );
 };
